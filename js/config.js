@@ -10,7 +10,7 @@ var respecConfig = {
   // EO: Einde ondersteuning, verouderde versie, vervangen door nieuwe versie
   // TG: Versie teruggetrokken
   // BASIS, GN-BASIS: 'geen status'
-  specStatus: "GN-WV",
+  specStatus: "VV",
 
   // SpecType currently supported
   // NO: "Norm"
@@ -22,10 +22,13 @@ var respecConfig = {
   // AL: "Algemeen"
   // BD: "Beheerdocumentatie"
   // BP: "Best Practice"
-  specType: "HR",
+  specType: "ST",
 
   // subtitle will be shown below title, can be omitted 
-  subtitle: "Hier komt een subtitle",
+  // subtitle: "Hier komt een subtitle",
+
+  // specify format: "markdown" when multiple markdown files are included 
+  //format: "markdown",                
 
   // The specification's "short name", which is the name used in NL_Respec URLs
   shortName: "disgeo",
@@ -33,14 +36,14 @@ var respecConfig = {
   // A YYYY-MM-DD date. The publication date of the present document. 
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
-  publishDate: "9999-02-19",
+  publishDate: "2021-02-19",
 
   // A YYYY-MM-DD date. When there is a previous release of a given specification, (W3C)
-  previousPublishDate: "9999-01-31",
+  previousPublishDate: "2021-01-31",
 
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
   // A YYYY-MM-DD date. When a previousPublishDate is specified, this is typically required as well in order to generate the "Previous Version"
-  //previousMaturity: "WV",
+  previousMaturity: "CV",
 
   // license can be one of the following: cc0, cc-by or cc-by-nd((default)) (see https://github.com/Geonovum/respec/wiki/license )
   license: 'cc-by-nd',
@@ -84,13 +87,12 @@ var respecConfig = {
 
   // Controls if linked "§" section markers are added to a document
   // addSectionLinks: true,
-  addSectionLinks: false,
 
   // Lints for accessibility issues using axe-core
   a11y: false,
 
   // A number indicating the maximum depth of the table of contents. Defaults to 0 which includes all levels.
-  // maxTocLevel: 3,
+  maxTocLevel: 3,
 
   // Shows links to alternate formats (such as PDF, ePub) in the document header.
   // alternateFormats: [{
@@ -128,13 +130,13 @@ var respecConfig = {
   nl_markdownSplitH1sections: true,
 
   // in some cases the Repository of a Specification document and the Issue- and PR bases are split
-  // thi scan be configured below
+  // this scan be configured below
   // if not set, the url's will be generated on the respecConfig.github automatically  
-  //nl_github: {
-  //  issueBase: "https://github.com/Logius-standaarden/Template-Repository/issues",
-  //  revision: "https://github.com/Logius-standaarden/Template-Repository/commits",
-  //  pullrequests: "https://github.com/Logius-standaarden/Logius-standaarden/Template-Repository/pulls"
-  //},
+  nl_github: {
+    issueBase: "https://github.com/Geonovum/TstRespec/issues",
+    revision: "https://github.com/Geonovum/TstRespec/commits",
+    pullrequests: "https://github.com//Geonovum/TstRespec/pulls"
+  },
 
   // nl_organisationName is used for some company specific values in the header (and Sotd)
   // currently supported: Logius and Geonovum (default)  
@@ -142,7 +144,7 @@ var respecConfig = {
 
   // prefix for the names of company specific css, svg and ico prefixes
   // defaults to "GN-"  
-  // nl_organisationPrefix: "LS-",
+  nl_organisationPrefix: "GN-",
 
   // class style can be automatically insertd in generated markdown tables
   // currently defaults to simple, but this may change
@@ -165,14 +167,15 @@ var respecConfig = {
 
   // nl_logo refers to company logo
   // defaults to https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg
-  // nl_logo: {
-  //  src: "https://www.geobasisregistraties.nl/binaries/medium/content/gallery/basisregistraties-ienm/content-afbeeldingen/dis-geo/logo_disgeo_schaduw_text_rgb.jpg",
-  //  alt: "Doorontwikkeling in Samenhang",
-  //  id: "Logius",
-  //  height: 77,
-  //  width: 44,
-  //  url: "https://www.geobasisregistraties.nl/basisregistraties/doorontwikkeling-in-samenhang"
-  // },
+  nl_logo: {
+    //  src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",
+    src: "https://www.geobasisregistraties.nl/binaries/medium/content/gallery/basisregistraties-ienm/content-afbeeldingen/dis-geo/logo_disgeo_schaduw_text_rgb.jpg",
+    alt: "Doorontwikkeling in Samenhang",
+    id: "TopLogo",
+    //height: 20,
+    //width: 100,
+    url: "https://www.geobasisregistraties.nl/basisregistraties/doorontwikkeling-in-samenhang"
+  },
 
   // If you need to include a one-off reference that isn't in the SpecRef database or 
   // if you need to override an existing reference with specific content, then you can use this configuration option.
