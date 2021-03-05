@@ -497,9 +497,9 @@ De uitwerking van deze component is onder andere gebaseerd op:
 
 De [Stelselcatalogus](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/basisregistraties-en-stelselafspraken/stelselvoorzieningen/stelselcatalogus/) van het stelsel van basisregistraties, Vanuit het stelsel van basisregistraties bestaat de verplichting om de stelselcatalogus te gebruiken. Deze heeft als doel om de objecttypen en gegevenstypen tussen de basisregistraties te kunnen vergelijken. De stelselcatalogus beschrijft niet tot op het niveau van de waardenlijsten.
 
-    -   De [Stelselcatalogus](https://stelselcatalogus.omgevingswet.overheid.nl/) van het digitaal stelsel Omgevingswet.
+- De [Stelselcatalogus](https://stelselcatalogus.omgevingswet.overheid.nl/) van het digitaal stelsel Omgevingswet.
 
-    -   Gegevenscatalogi van BAG, BGT, BRT, BRO, BRK en WOZ
+- Gegevenscatalogi van BAG, BGT, BRT, BRO, BRK en WOZ
 
 **Uitgangspunten**
 

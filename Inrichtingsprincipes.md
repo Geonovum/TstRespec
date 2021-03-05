@@ -63,7 +63,7 @@ Grondslag: Uitgangspunten (12, 14), GGL / Common Ground (04)
 
 **Inrichtingsprincipe 2: Ieder gegeven wordt op precies &eacute&eacuten plek bijgehouden**, *zodat* altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dit principe heeft de volgende onderliggende principes in zich:
 
-    - **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.
+- **Dubbele opslag betekent synchroniseren**, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.
 
 Grondslag: Uitgangspunten (14, 15, 19), GGL / Common Ground (04)
 
