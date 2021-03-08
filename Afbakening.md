@@ -24,10 +24,13 @@ Objectgegevens kunnen worden **verrijkt** voordat ze worden ontsloten voor gebru
 
 Vanuit de Objectenregistratie worden alleen *generieke* gegevensproducten verstrekt. Dat zijn producten die voor een groot deel van de afnemers relevant zijn. Specifieke gegevensproducten waar alleen bepaalde sectoren of afnemers behoefte aan hebben vallen buiten de scope van de Objectenregistratie. Als er bij de afnemers twijfel over de juistheid van  gegevens bestaat dan kunnen zij dat **terugmelden** waarna de bronhouder zal **onderzoeken** of die twijfel tot wijzigingen moet leiden.
 
-<figure id="processtappen">
+<!-- figure id="processtappen">
     <img src="media/praatplaat-eenvoudig-processtappen-sor.png" alt="processtappen">
     <figcaption>De globale processtappen van de samenhangende objectenregistratie</figcaption>
-</figure>
+</figure JvG -->
+![De globale processtappen van de samenhangende objectenregistratie](media/praatplaat-eenvoudig-processtappen-sor.png "processtappen")
+
+
 
 Samenvattend onderscheiden we de volgende processtappen.
 
@@ -48,10 +51,12 @@ NB. Deze namen en omschrijvingen zijn overgenomen uit een eerste uitwerking van 
 ### Scope van de Architectuurbeschrijving
 Op basis van de processtappen is de scope van de Architectuurbeschrijving te bepalen. Onderstaande afbeelding geeft deze scope weer. 
 
-<figure id="scopearchitectuur-processen">
+<!-- JvG figure id="scopearchitectuur-processen">
     <img src="media/systeemprocessen-objectenregistratie.png" alt="systeemprocessen-objectenregistratie">
     <figcaption>Scope van de architectuurbeschrijving.</figcaption>
-</figure>
+</figure JvG -->
+![Scope van de architectuurbeschrijving](media/systeemprocessen-objectenregistratie.png "scopearchitectuur-processen")
+
 
 Deze architectuurbeschrijving heeft als scope de ICT-voorzieningen voor de uitvoering en de ondersteuning van de Samenhangende Objectenregistratie. Dit betreft de processtappen **Registreren, Bewaren, Ontsluiten en Verrijken** en de bijbehorende ondersteunende processen. Alleen het verrijken van gegevens tot generieke gegevensproducten behoort tot de scope van (de ICT-voorzieningen voor) de Objectenregistratie. 
 
@@ -63,10 +68,12 @@ Deze architectuurbeschrijving benoemt binnen de scope de functies, componenten e
 
 De Objectenregistratie heeft de volgende interactie met de omgeving.
 
-<figure id="scopearchitectuur-interacties">
-    <img src="media/hoofdstructuur-objectenregistratie.png" alt="interacties-objectenregistratie">
+<!-- JvG figure id="scopearchitectuur-interacties">
+    <img  src="media/hoofdstructuur-objectenregistratie.png" alt="interacties-objectenregistratie">
     <figcaption>Interacties</figcaption>
-</figure>
+</figure JvG -->
+![Interacties](media/hoofdstructuur-objectenregistratie.png "interacties")
+
 
 | Actor          | Interacties | 
 |----------------|-------------|
@@ -90,10 +97,10 @@ De actor Afnemer in de omgeving maakt gebruik van de diensten van de Objectenreg
 Bronhouders en afnemers maken gebruik van ondersteuners zoals dienstenleveranciers en softwareleveranciers en kunnen taken uitbesteden aan derden, zoals samenwerkingsverbanden en gegevensleveranciers.
 De beschreven interacties hebben deels ook betrekking op deze ondersteuners. Zo zullen softwareleveranciers ook gebruik maken van de gegevens- en de dienstencatalogus van de Objectenregistratie.
 
-### Test
+### Test level-3
 
-#### Test
+#### Test level-4
 
-##### Test
+##### Test level-5
 
-###### Test
+###### Test level-6

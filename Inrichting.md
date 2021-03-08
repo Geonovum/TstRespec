@@ -10,10 +10,11 @@ Dit hoofdstuk beschrijft de onderdelen van de Objectenregistratie en de verbindi
 
 We onderscheiden drie clusters in de functionele indeling van de Objectenregistratie, zoals de afbeelding hieronder toont. Daarmee duiden we alleen het doel van de functies en doen we geen uitspraak over de technische inrichting of de verdeling ervan over verschillende ICT-voorzieningen.
 
-<figure id="inrichtingclusters">
+<!-- JvG figure id="inrichtingclusters">
     <img src="media/functionele-clusters-objectenregistratie.png" alt="functionele clusters">
     <figcaption>Functionele clusters in de inrichting van de Objectenregistratie</figcaption>
-</figure>
+</figure JvG -->
+![Functionele clusters in de inrichting van de Objectenregistratie](media/functionele-clusters-objectenregistratie.png "inrichtingclusters")
 
 het cluster **Inzicht** bevat de functies die nodig zijn voor het beheren en gebruiken van gegevens over de gegevens, ofwel metagegevens. Dit cluster wordt gebruikt door de andere clusters om de gegevensstructuur en de gegevensregels te kunnen toepassen in voorzieningen en om inzicht in de gegevenskwaliteit te verkrijgen.
 
@@ -23,11 +24,11 @@ Het cluster **Ondersteuning** bevat de functies die nodig zijn om bronhouders en
 
 De componenten in de drie clusters Inzicht, Uitvoering en Ondersteuning zijn weergegeven in onderstaand **overzicht**.
 
-<figure id="Inzicht-inrichting-uitvoering">
+<!-- JvG figure id="Inzicht-inrichting-uitvoering">
     <img src="media/inrichting-inzicht-uitvoering-ondersteuning-objectenregistratie.png" alt="inrichting Inzicht uitvoering ondersteuning">
     <figcaption>De componenten binnen de clusters Inzicht en Uitvoering en Ondersteuning</figcaption>
-</figure>
-
+</figure JvG-->
+![De componenten binnen de clusters Inzicht en Uitvoering en Ondersteuning](media/inrichting-inzicht-uitvoering-ondersteuning-objectenregistratie.png "inzicht-inrichting-uitvoering")
 
 ### Functies in het cluster Inzicht
 
@@ -91,19 +92,21 @@ Toegankelijkheid en interoperabiliteit worden vergroot door de ICT-componenten e
 
 Voor ICT-componenten en services waarmee de functies beschikbaar gemaakt worden, zijn niet-functionele eisen van toepassing volgens de ISO25010 standaard. Deze betreffen kwaliteit-in-gebruik en productkwaliteit.
 
-<figure id="kwaliteit-in-gebruik">
+<!-- JvG figure id="kwaliteit-in-gebruik">
     <img src="media/ISO25010-quality-in-use.png" alt="kwaliteit-in-gebruik">
     <figcaption>Kwaliteit-in-gebruik volgens ISO25010</figcaption>
-</figure>
+</figure JvG -->
+![Kwaliteit-in-gebruik volgens ISO25010](media/ISO25010-quality-in-use.png "kwaliteit-in-gebruik")
 
 Voor **kwaliteit-in-gebruik** van de functies van de objectenregistratie zijn eisen van toepassing aangaande effectiviteit, efficiëntie, voldoening, vrijheid van risico en dekking van contexten. 
 	 
 De eisen aangaande dekking van contexten vertalen de vereiste flexibiliteit van de objectenregistratie-als-geheel naar de vereiste flexibiliteit van de ICT componenten. Denk hierbij aan de aanpasbaarheid van componenten aan veranderingen in de scope van basisgegevens en de structuur van basisgegevens. 
 
-<figure id="productkwaliteit">
+<!-- JvG figure id="productkwaliteit">
     <img src="media/ISO25010-software-product-quality.png" alt="productkwaliteit">
     <figcaption>Productkwaliteit volgens ISO25010</figcaption>
-</figure>
+</figure JvG -->
+![Productkwaliteit volgens ISO25010](media/ISO25010-software-product-quality.png "productkwaliteit")
 
 Voor **productkwaliteit** van de functies van de objectenregistratie zijn eisen van toepassing aangaande functionele geschiktheid, betrouwbaarheid, performance, bruikbaarheid, beveiliging, compatibiliteit, onderhoudbaarheid en overdraagbaarheid. 
 	 

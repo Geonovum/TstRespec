@@ -11,10 +11,11 @@ Dit document is de **Architectuurbeschrijving Voorzieningen** van de Samenhangen
 
 De scope van de architectuur omvat de gemeenschappelijke voorzieningen voor het registreren, bewaren en ontsluiten van de objectgegevens in de objectenregistratie. Voorzieningen die bronhouders gebruiken voor het inwinnen van objectgegevens (zoals voor beeldmateriaal) vallen buiten de scope. Ook de voorzieningen van afnemers voor het gebruiken van de gegevens en voor het, indien nodig, lokaal opslaan van kopieën van de gegevens vallen buiten de scope.
 
-<figure id="scope-in-nora5laagsmodel">
+<!-- JvG  figure id="scope-in-nora5laagsmodel">
     <img src="media/scope-in-nora5laagsmodel.png" alt="scope in nora5laagsmodel">
     <figcaption>Scope in het NORA 5 laagsmodel</figcaption>
-</figure>
+</figure JvG -->
+![Scope in het NORA 5 laags model](media/scope-in-nora5laagsmodel.png "ScopeNORA")
 
 ### Doel en doelgroep
 
@@ -42,10 +43,12 @@ Dit document is een product van een samenwerking van Geonovum, Kadaster, Ministe
 
 Deze Architectuurbeschrijving Voorzieningen van de Samenhangende Objectenregistratie vormt samen met andere documenten een volledige beschrijving van de samenhangende objectenregistratie, zoals hieronder weergegeven. Op het moment van schrijven zijn niet voor alle blokken al uitwerkingen openbaar.
 
-<figure id="documentenstructuur">
+<!-- JvG figure id="documentenstructuur">
     <img src="media/documentenstructuur.png" alt="documenten van de samenhangende objectenregistratie">
     <figcaption>Documenten van de samenhangende objectenregistratie</figcaption>
-</figure>
+</figure JvG-->
+![Documenten van de samenhangende objectenregistratie](media/documentenstructuur.png "documentenstructuur")
+
 
 Globale uitgangspunten voor het programma DiS-Geo worden vastgelegd in een nog te verschijnen beleidsvisie DiS Geo.
 

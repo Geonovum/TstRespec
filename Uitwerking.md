@@ -23,10 +23,11 @@ uitgewerkt.
 
 Onderstaande afbeelding toont de groepen van functionaliteiten op het cluster Uitvoering. Deze groepering is een functionele, geen technische. Hij groepeert functies die bijdragen aan hetzelfde doel.
 
-<figure id="functiesuitvoering">
+<!-- JvG figure id="functiesuitvoering">
     <img src="media/inrichting-uitvoering-objectenregistratie.png" alt="inrichting uitvoering">
     <figcaption>De functies binnen het cluster Uitvoering</figcaption>
-</figure>
+</figure JvG -->
+![De functies binnen het cluster Uitvoering](media/inrichting-uitvoering-objectenregistratie.png "functiesuitvoering")
 
 Het cluster **Uitvoering** bevat de functies voor het beheren van objectgegevens en voor het afnemen van objectgegevens
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
@@ -463,10 +464,11 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 Onderstaande afbeelding toont de groepen functionaliteiten op het cluster Inzicht. Deze groepering is een functionele, geen technische. Hij groepeert functies die bijdragen aan hetzelfde doel.
 
-<figure id="inrichting-inzicht">
+<!-- JvG figure id="inrichting-inzicht">
     <img src="media/inrichting-inzicht-objectenregistratie.png" alt="inrichting inzicht">
     <figcaption>De functies binnen het cluster Inzicht </figcaption>
-</figure>
+</figure JvG -->
+![De functies binnen het cluster Inzicht](media/inrichting-inzicht-objectenregistratie.png "inrichting-inzicht")
   
 Binnen het cluster **Inzicht** onderkennen we de volgende groepen functionaliteiten: **Toegang**, **Gegevenscatalogus**, **Gegevenskwaliteit** en **Dienstencatalogus**. 
 
@@ -713,10 +715,13 @@ Deze component heeft de volgende externe afhankelijkheden:
 
 Onderstaande afbeelding toont de groepen van functionaliteiten op het cluster Ondersteuning. Deze groepering is een functionele, geen technische. Hij groepeert functies die bijdragen aan hetzelfde doel.
 
-<figure id="functiesuitvoeringondersteuning">
+<!-- JvG figure id="functiesuitvoeringondersteuning">
     <img src="media/inrichting-ondersteuning-objectenregistratie.png" alt="inrichting ondersteuning">
     <figcaption>De functies binnen het cluster Ondersteuning</figcaption>
-</figure>
+</figure JvG -->
+![De functies binnen het cluster Ondersteuning](media/inrichting-ondersteuning-objectenregistratie.png "functiesuitvoeringondersteuning")
+
+
 
 Binnen het cluster **Ondersteuning** onderkennen we de functies voor de ondersteuning van bronhouders en hun gemachtigden en afnemers.
 Algemene onderwerpen zoals Toegang en Interactie zijn uitgewerkt in het onderdeel Algemeen.
