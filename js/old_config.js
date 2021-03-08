@@ -165,6 +165,19 @@ var respecConfig =
   previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
   //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
 
+  // Link naar vorige vastgestelde versie van het document. Gedocumenteerd op https://github.com/w3c/respec/wiki/prevRecURI
+  // DIT WERKT NIET in Geonovum ReSpec omdat de code verouderd is t.o.v. W3C Respec:
+   prevRecURI: "https://www.w3.org/TR/2014/example-20140327/",
+  
+  // Alternatief voor prefRecURI:
+    otherLinks: [{
+    key: "Vorige vastgestelde versie",
+    data: [{
+        value: "DisGeo Architectuur 0.0",
+        href: "https://www.w3.org/TR/2014/example-20140327/"
+    }]
+  }], 
+
   //ftp://documenten@docs.geostandaarden.nl/disgeo/cv-al-arch-20201203
 
   //-- Optionele parameters:

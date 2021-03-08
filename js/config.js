@@ -45,6 +45,9 @@ var respecConfig = {
   // A YYYY-MM-DD date. When a previousPublishDate is specified, this is typically required as well in order to generate the "Previous Version"
   previousMaturity: "CV",
 
+  // Link naar vorige vastgestelde versie van het document. Gedocumenteerd op https://github.com/w3c/respec/wiki/prevRecURI
+  prevRecURI: "https://www.w3.org/TR/2014/example-20140327/",
+
   // license can be one of the following: cc0, cc-by or cc-by-nd((default)) (see https://github.com/Geonovum/respec/wiki/license )
   license: 'cc-by-nd',
 
